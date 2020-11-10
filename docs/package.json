@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "mmdc": "./node_modules/.bin/mmdc",
+    "document1": "./node_modules/.bin/mmdc --input document1.md --output ../images/document1.png"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^8.8.2-beta.8"
+  }
+}
