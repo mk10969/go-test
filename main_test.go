@@ -1,6 +1,9 @@
 package main
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func Test_main(t *testing.T) {
 	tests := []struct {
@@ -13,4 +16,11 @@ func Test_main(t *testing.T) {
 			main3()
 		})
 	}
+}
+
+func Test_main2(t *testing.T) {
+	// Rustと同じだ！OK
+	s := "こんにちは"
+
+	fmt.Println(len(s))
 }
